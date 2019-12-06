@@ -66,3 +66,17 @@ Criar uma tabela com as colunas `Meses`, `Vendas` e `Preços`
 Repetir os passos acima, alerando o primeiro critério de `Tabela_Vendas[Vendas];` para `Tabela_Vendas[Preço];`
 
 No caso do preço, também poderia ser utilizada a fórmula `=MEDIASES()`
+
+
+**PASSO 4 Criando o Gráfico**
+
+- Selecionar a tabela auxiliar
+- Inserir -> Gráfico de Colunas -> Mais Gráficos de Colunas -> Combinação -> Coluna Clusterizada - Eixo Secundário
+
+*Perfumaria - Título do Gráfico Dinâmico*
+
+Em uma célua qualquer, faremos:
+
+="Unidade: "&D2&" - Produto: "&D4
+
+Em seguida, selecionar o título do gráfico, e na barra de fórmulas indicar a célula acima.
